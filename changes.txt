@@ -1,0 +1,189 @@
+// handleChange = (event) => {
+  //   this.setState({ searchQuery: event.target.value }, () => {
+  //     const filtered = this.state.pokemonData.filter((pokemon) =>
+  //       pokemon.name
+  //         .toLowerCase()
+  //         .includes(this.state.searchQuery.toLowerCase())
+  //     );
+
+  //     this.setState({
+  //       filterPokemon: filtered,
+  //       searching: true,
+  //     });
+  //   });
+  // };
+  // handleFilter = (event) => {
+  //   const selectedType = event.target.value;
+  //   this.setState({ selectedType }, () => {
+  //     const filtered = this.state.pokemonData.filter((pokemon) => {
+  //       if (!pokemon.types || !Array.isArray(pokemon.types)) {
+  //         return false;
+  //       } else if (selectedType === "") {
+  //         return true;
+  //       }
+
+  //       return pokemon.types.some((type) => type === selectedType);
+  //     });
+  //     this.setState({
+  //       filterPokemon: filtered,
+  //       searching: true,
+  //       selectedType: selectedType,
+  //     });
+  //   });
+  // };
+  {/* <div className="row d-flex">
+          {this.state.searching
+            ? this.state.filterPokemon.map((element) => {
+                return (
+                  <div
+                    className={`col-lg-2 col-md-3 col-sm-5 mb-4${
+                      this.state.selectedPokemon ? "blur-background" : ""
+                    } `}
+                    key={element.url}
+                  >
+                    {this.state.selectedPokemon ? (
+                      <Details
+                        pid={element.pid}
+                        onClose={() => this.setState({ selectedPokemon: null })}
+                      />
+                    ) : (
+                      <Poke
+                        name={element.name ? element.name : ""}
+                        imgURL={element.imgURL}
+                        pid={element.pid}
+                        types={element.types}
+                        gender={element.gender}
+                        onClick={this.handlePokemonClick(element)}
+                      />
+                    )}
+                  </div>
+                );
+              })
+            : this.state.pokemonData.map((element) => {
+                return (
+                  <div
+                    className={`col-lg-2 col-md-3 col-sm-5 mb-4${
+                      this.state.selectedPokemon ? "blur-background" : ""
+                    } `}
+                    key={element.pid}
+                  >
+                    {this.state.selectedPokemon ? (
+                      <Details
+                        pid={element.pid}
+                        onClose={() => this.setState({ selectedPokemon: null })}
+                      />
+                    ) : (
+                      <Poke
+                        name={element.name ? element.name : ""}
+                        imgURL={element.imgURL}
+                        pid={element.pid}
+                        types={element.types}
+                        gender={element.gender}
+                        onClick={this.handlePokemonClick(element)}
+                      />
+                    )}
+                  </div>
+                );
+              })}
+        </div> */}
+        {/* <small style={{ marginRight: "140px" }}>HP</small>
+                  <div
+                    className="container my-1 mx-5"
+                    style={{
+                      width: "438px",
+                      height: " 31px",
+                      borderRadius: "8px",
+                      border: " 1px solid #2E3156",
+                      background: " #F1F3F3",
+                      position: "absolute",
+                      top: "15%",
+                      left: "20%",
+                    }}
+                  >
+                    <span className="mx-1">0</span>
+                    <input className="py-2" min="0" max="210" type="range" />
+                    210
+                  </div> */}
+                  {/* <div
+          className="container d-flex justify-content-between"
+          style={{ marginTop: "7%" }}
+        >
+          <b>Height</b>
+          <b>Weight</b>
+
+          <b>Gender(s)</b>
+
+          <b>Egg-Groups</b>
+        </div>
+        <div
+          className="container d-flex justify-content-between mx-1"
+          style={{ marginTop: "2%" }}
+        >
+          <b>{this.state.height}</b>
+          <b>{this.state.weight}</b>
+
+          <b>{gender}</b>
+
+          <b>
+            {group}&nbsp;&nbsp;{group2}
+          </b>
+        </div>
+        <div
+          className="container d-flex justify-content-between"
+          style={{ marginTop: "7%" }}
+        >
+          <b>Abilities</b>
+          <b>Types</b>
+          <b style={{ marginRight: "29%" }}>Weak Against</b>
+        </div>
+        <div
+          className="container d-flex justify-content-between"
+          style={{ marginTop: "2%" }}
+        >
+          <b>{abilitiesString}</b>
+          {type1 && type2 ? (
+            <div className="container" style={{ marginLeft: "2%" }}>
+              <b
+                style={{
+                  width: "55px",
+                  height: "24px",
+                  borderRadius: "5px",
+                  border: "1px solid #2E3156",
+                  background: typeColor[type1],
+                  marginRight: "2%",
+                }}
+              >
+                {type1}
+              </b>
+              <b
+                style={{
+                  width: "55px",
+                  height: "24px",
+                  borderRadius: "5px",
+                  border: "1px solid #2E3156",
+                  background: typeColor[type2],
+                }}
+              >
+                {type2}
+              </b>
+            </div>
+          ) : (
+            <div className="container" style={{ marginLeft: "12%" }}>
+              <b
+                style={{
+                  width: "55px",
+                  height: "24px",
+                  borderRadius: "5px",
+                  border: "1px solid #2E3156",
+                  background: typeColor[type2],
+                }}
+              >
+                {type1}
+              </b>
+            </div>
+          )}
+
+          <div className="container d-flex justify-content-between" style={{ marginRight: "15%" }}>
+                {damageBoxes}
+          </div>
+        </div> */}
