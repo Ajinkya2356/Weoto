@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Weoto/static/css/main.3ae12b20.css",
+    "main.js": "/Weoto/static/js/main.f82f79d6.js",
+    "static/js/787.ab378faf.chunk.js": "/Weoto/static/js/787.ab378faf.chunk.js",
+    "static/media/spinner.gif": "/Weoto/static/media/spinner.29181c59a23df5c07450.gif",
+    "index.html": "/Weoto/index.html",
+    "main.3ae12b20.css.map": "/Weoto/static/css/main.3ae12b20.css.map",
+    "main.f82f79d6.js.map": "/Weoto/static/js/main.f82f79d6.js.map",
+    "787.ab378faf.chunk.js.map": "/Weoto/static/js/787.ab378faf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ae12b20.css",
+    "static/js/main.f82f79d6.js"
+  ]
+}
